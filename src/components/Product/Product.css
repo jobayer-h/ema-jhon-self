@@ -1,0 +1,26 @@
+.product{
+    display: flex;
+}
+.product-information{
+    display: flex;
+    margin-left: 30px;
+}
+.product-info h4{
+    color: blue;
+    font-weight: 400;
+}
+.product-info button{
+    background: orange;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.product-info button:hover{
+    background: rgb(255, 115, 0);
+    border: none;
+}.product-info button:focus{
+    background: green;
+    border: none;
+    color: white;
+}
